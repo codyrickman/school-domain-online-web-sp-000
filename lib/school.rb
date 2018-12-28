@@ -19,7 +19,7 @@ class School
   def sort
     new_hash = Hash[@this_roster.sort]
     new_hash.each do |names|
-      Hash[names].sort!
+      Hash[names].sort
     end
   end
 end
